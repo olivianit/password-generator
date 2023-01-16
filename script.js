@@ -12,7 +12,7 @@ function generatePassword() {
         alert("You must have a password between 8 - 128 characters, Please retry")
         generatePassword()
     } else {
-        if(confirm("Do you want uppercase characters in ygti addour password?")) {
+        if(confirm("Do you want uppercase characters in yourpassword?")) {
             characters = characters.concat(upperCase)
         }
         if(confirm("Do you want lowercase characters in your password?")) {
